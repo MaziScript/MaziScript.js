@@ -1,0 +1,25 @@
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 5,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "impliedStrict": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "jquery": true
+    },
+    "rules": {
+        "comma-style": 2,
+        "no-bitwise": 0,
+        "no-alert": 2,
+        "no-console": 0,
+        "no-debugger": 1,
+        "no-unused-vars": 0,
+        "no-mixed-spaces-and-tabs": 2,
+        "no-regex-spaces": 0
+    }
+}
